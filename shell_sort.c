@@ -16,5 +16,11 @@ int main() {
 }
 
 int* shell_sort(int *num, int n) {
-    
+    // 取間隔
+    for (int gap = n >> 1; gap > 0; gap = gap >> 1) {
+        // 零到間隔進行插入排序
+        for (int i = 0; i < gap; i++) {
+            
+        }
+    }
 }
