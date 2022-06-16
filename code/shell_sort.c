@@ -6,6 +6,12 @@ int* shell_sort(int *num, int n);
 int main() {
 
     int num[] = {6,4,7,9,8,5,3,1,2};
+
+    for (int i = 0; i < sizeof(num) / sizeof(int); i++) {
+        printf("%d ", num[i]);
+    }
+    printf("\n");
+
     shell_sort(num, sizeof(num) / sizeof(int));
 
     for (int i = 0; i < sizeof(num) / sizeof(int); i++) {
